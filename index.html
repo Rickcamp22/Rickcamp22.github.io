@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+  <title>Iniciar sesión</title>
+  <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted>
+          <source src="./Video/Background.mp4" type="video/mp4">
+          Tu navegador no admite el elemento de video.
+        </video>
+      </div>
+
+      <div class="container">
+        <h2>Iniciar sesión</h2>
+        <form id="login-form">
+          <div class="form-group">
+            <label for="username">Nombre de usuario</label>
+            <input type="text" id="username" placeholder="Ingresa tu nombre de usuario" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" placeholder="Ingresa tu contraseña" required>
+          </div>
+          <div class="form-group">
+            <div class="forgot-password">
+              <a href="#" class="forgot-link">¿Olvidaste tu contraseña?</a>
+            </div>
+            <button type="submit">Iniciar sesión</button>
+          </div>
+        </form>
+        <p id="message"></p>
+        <p class="create-account">¿No tienes una cuenta? <a href="#">Crear una cuenta</a></p>
+      </div>
+
+  <script src="./JS/Java.js"></script>
+</body>
+</html>
